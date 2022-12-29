@@ -1,0 +1,11 @@
+[workspace]
+members = [ "sub" ]
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace.dependencies]
+hex = "0.4"
+
+[patch.crates-io]
+hex.workspace = true
